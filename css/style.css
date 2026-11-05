@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ヘッダー */
+.onsen-header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.onsen-header,
+.onsen-header a {
+    color: #2e7d32;
+}
+
+.header-inner {
+    /* max-width: 1100px;
+  margin: 0 auto; */
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onsen-nav {
+    padding-right: 20px;
+}
+
+.site-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.onsen-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.onsen-nav a {
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.onsen-nav a:hover {
+    border-bottom-color: #2e7d32;
+}
+
+/* フッター */
+.onsen-footer {
+    background: #6ba86e;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.footer-inner {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.onsen-footer address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+.copyright {
+    text-align: center;
+    padding: 16px;
+    font-size: 0.85rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*見出しのフォントサイズと色*/
+.section-title {
+    font-family: "游明朝", serif;
+    color: #547557;
+    font-weight: normal;
+}
