@@ -50,6 +50,33 @@
     border-bottom-color: #2e7d32;
 }
 
+.hero img {
+    width: 100%;
+    height: 450px;
+}
+
+.annai {
+    background-color: #a3d8b4;
+    text-align: center;
+    padding: 40px 24px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.annai p {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.annai ul {
+    list-style: none;
+}
+
+.annai li+li {
+    margin-top: 8px;
+}
+
 /* フッター */
 .onsen-footer {
     background: #6ba86e;
