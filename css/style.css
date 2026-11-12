@@ -120,3 +120,10 @@
     font-size: 0.85rem;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+/*見出しのフォントサイズと色*/
+.section-title {
+    font-family: "游明朝", serif;
+    color: #547557;
+    font-weight: normal;
+}
