@@ -1,7 +1,9 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "游明朝", serif;
 }
 
 /* ヘッダー */
@@ -17,7 +19,7 @@
 
 .header-inner {
     /* max-width: 1100px;
-  margin: 0 auto; */
+    margin: 0 auto; */
     padding: 16px 20px;
     display: flex;
     justify-content: space-between;
@@ -50,6 +52,48 @@
     border-bottom-color: #2e7d32;
 }
 
+.hero img {
+    width: 100%;
+    height: 450px;
+}
+
+.annai {
+    background-color: #a3d8b4;
+    text-align: center;
+    padding: 40px 24px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.annai p {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.annai ul {
+    list-style: none;
+}
+
+.annai a {
+    text-decoration: none;
+}
+
+.annai li+li {
+    margin-top: 8px;
+}
+
+.yado h2 {
+    display: inline-block;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #6ba86e;
+}
+
+.yado {
+    margin-top: 100px;
+    text-align: center;
+}
+
 /* フッター */
 .onsen-footer {
     background: #6ba86e;
@@ -80,7 +124,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/*見出しのフォントサイズと色*/
+/* 見出しのフォントサイズと色 */
 .section-title {
     font-family: "游明朝", serif;
     color: #547557;
