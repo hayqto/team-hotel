@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "游明朝", serif;
+}
+
+.annai {
+    background-color: #a3d8b4;
+    text-align: center;
+    padding: 40px 24px;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.annai p {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.annai ul {
+    list-style: none;
+}
+
+.annai a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.annai li+li {
+    margin-top: 8px;
+}
+
+.yado h2 {
+    display: inline-block;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #6ba86e;
+}
+
+.yado {
+    margin-top: 100px;
+    text-align: center;
+}
