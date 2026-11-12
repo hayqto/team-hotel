@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "游明朝",  serif;
 }
 
 /* ヘッダー */
@@ -72,9 +73,22 @@
 .annai ul {
     list-style: none;
 }
+.annai a{
+    text-decoration: none;
+}
 
 .annai li+li {
     margin-top: 8px;
+}
+
+.yado h2{
+    display: inline-block;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #6ba86e;
+}
+.yado {
+    margin-top: 100px;
+    text-align: center;
 }
 
 /* フッター */
