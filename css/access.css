@@ -5,6 +5,10 @@
     margin-bottom: 40px;
 }
 
+h1 {
+    margin-bottom: 10px;
+}
+
 img {
     width: 60%;
     height: auto;
@@ -23,4 +27,19 @@ iframe {
 
 section {
     margin-bottom: 40px;
+}
+
+.kanko {
+    width: 30%;
+    display: inline-block;
+    margin: 0 0.5% 20px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+}
+
+/* 駐車場の画像 */
+.kanko-list img {
+    width: 100%;
+    height: 240px;
+    display: block;
 }
