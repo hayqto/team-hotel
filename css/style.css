@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "游明朝",  serif;
 }
 
 /* ヘッダー */
 .onsen-header {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .onsen-header,
@@ -73,7 +75,8 @@
 .annai ul {
     list-style: none;
 }
-.annai a{
+
+.annai a {
     text-decoration: none;
 }
 
@@ -81,11 +84,12 @@
     margin-top: 8px;
 }
 
-.yado h2{
+.yado h2 {
     display: inline-block;
     margin-bottom: 32px;
     border-bottom: 1px solid #6ba86e;
 }
+
 .yado {
     margin-top: 100px;
     text-align: center;
