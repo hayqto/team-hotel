@@ -5,8 +5,14 @@
     font-family: "游明朝", serif;
 }
 
+.hero-top img {
+    width: 100%;
+    height: 350px;
+}
+
+/* 案内 */
 .annai {
-    background-color: #a3d8b4;
+    background-color: #e1e9e4;
     text-align: center;
     padding: 40px 24px;
     width: 80%;
@@ -25,20 +31,72 @@
 
 .annai a {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
 }
 
 .annai li+li {
     margin-top: 8px;
 }
 
-.yado h2 {
+/* 宿紹介 */
+.yado h1 {
     display: inline-block;
     margin-bottom: 32px;
     border-bottom: 1px solid #6ba86e;
+    color: #2e7d32;
 }
 
 .yado {
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-onsen img {
+    width: 100%;
+    height: 350px;
+}
+
+/* 温泉（風呂？）紹介 */
+.ofuro h1 {
+    display: inline-block;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #6ba86e;
+    color: #2e7d32;
+}
+
+.ofuro {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ofuro .button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #2e7d32;
+    background: #FFF;
+    border: 1px solid rgb(132, 171, 158);
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px 16px;
+    width: 30%;
+    min-width: 180px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+/* 食事紹介 */
+.meal h1 {
+    display: inline-block;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #6ba86e;
+    color: #2e7d32;
+}
+
+.meal {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 40px;
 }
