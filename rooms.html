@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header class="onsen-header section-title">
+    <header class="onsen-header section-title">
         <div class="header-inner">
             <a href="index.html" class="site-title">ジョビ温泉</a>
             <nav class="onsen-nav">
@@ -23,11 +23,108 @@
             </nav>
         </div>
     </header>
-    <main>
-        <h1 class="section-title">客室のご案内</h1>
+    <main class="room-page" id="top">
+        <div class="room-hero"><img src="img/hero.jpg" alt=""></div>
 
+        <section class="room-intro">
+            <h2 class="section-title">お部屋のご案内</h2>
+            <p>景色を楽しめるお部屋、露天風呂付きのお部屋、気軽に泊まれるお部屋など、旅のスタイルや予算に合わせて選べる多彩なお部屋をご用意しています。お部屋の設備は異なりますが、基本のサービスはどのお部屋も同じです。</p>
+        </section>
+
+        <nav class="page-nav" aria-label="お部屋タイプ">
+            <ul>
+                <li><a href="#rotenburo"><img src="img/nav-rotenburo.jpg" alt=""><span>露天風呂付き客室</span></a></li>
+                <li><a href="#washitsu"><img src="img/nav-washitsu.jpg" alt=""><span>和室</span></a></li>
+                <li><a href="#bedtype"><img src="img/nav-bedtype.jpg" alt=""><span>ベッドタイプ</span></a></li>
+            </ul>
+        </nav>
+
+        <section class="room-section" id="rotenburo">
+            <h2 class="section-title">露天風呂付きのお部屋</h2>
+            <p class="room-lead">部屋の露天風呂で、自分だけの温泉時間を。四季の景色を眺めながら、のんびり過ごせるお部屋です。</p>
+            <img class="room-banner" src="img/banner-rotenburo.jpg" alt="">
+            <div class="room-grid">
+                <article class="room-card">
+                    <img src="img/room01.jpg" alt="松風の間 露天風呂付特別室のイメージ">
+                    <h3 class="section-title room-name">松風の間 露天風呂付特別室</h3>
+                    <p class="room-desc">客室二間と応接間を備えた、当館で最も広い特別室。専用の露天風呂から四季の景色を独り占めできます。記念日など大切な日の滞在に。</p>
+                    <p class="room-note">※ この部屋は1部屋限定です。</p>
+                    <details class="room-detail">
+                        <summary>お部屋の詳細</summary>
+                        <p>広さ・定員・設備などの詳細をここに記入します。</p>
+                    </details>
+                </article>
+                <article class="room-card">
+                    <img src="img/room02.jpg" alt="せせらぎ 露天風呂付客室のイメージ">
+                    <h3 class="section-title room-name">せせらぎ 露天風呂付客室</h3>
+                    <p class="room-desc">好きな時に好きなだけ、部屋の露天風呂へ。時間を気にせず過ごしたい方のための、くつろぎの客室です。</p>
+                    <p class="room-note">※ この部屋は4部屋限定です。</p>
+                    <details class="room-detail">
+                        <summary>お部屋の詳細</summary>
+                        <p>広さ・定員・設備などの詳細をここに記入します。</p>
+                    </details>
+                </article>
+            </div>
+        </section>
+
+        <section class="room-section" id="washitsu">
+            <h2 class="section-title">和室タイプのお部屋</h2>
+            <p class="room-lead">畳の香りに包まれる、落ち着いた和室。景色や広さ、予算に合わせて選べます。</p>
+            <img class="room-banner" src="img/banner-washitsu.jpg" alt="">
+            <div class="room-grid">
+                <article class="room-card">
+                    <img src="img/room03.jpg" alt="若葉の間 12畳のイメージ">
+                    <h3 class="section-title room-name">若葉の間 12畳</h3>
+                    <p class="room-desc">基本となる和室。部屋にこだわりがない方、まずは和室で過ごしたい方におすすめです。</p>
+
+                    <details class="room-detail">
+                        <summary>お部屋の詳細</summary>
+                        <p>広さ・定員・設備などの詳細をここに記入します。</p>
+                    </details>
+                </article>
+                <article class="room-card">
+                    <img src="img/room04.jpg" alt="山並の間 14畳のイメージ">
+                    <h3 class="section-title room-name">山並の間 14畳</h3>
+                    <p class="room-desc">広々とした空間で、ご夫婦やご家族がゆっくり過ごせる和室です。</p>
+
+                    <details class="room-detail">
+                        <summary>お部屋の詳細</summary>
+                        <p>広さ・定員・設備などの詳細をここに記入します。</p>
+                    </details>
+                </article>
+            </div>
+        </section>
+
+        <section class="room-section" id="bedtype">
+            <h2 class="section-title">ベッドのあるお部屋</h2>
+            <p class="room-lead">ぐっすり眠れるベッド付きのお部屋。旅のスタイルに合わせてお選びください。</p>
+            <img class="room-banner" src="img/banner-bedtype.jpg" alt="">
+            <div class="room-grid">
+                <article class="room-card">
+                    <img src="img/room05.jpg" alt="和モダンツインのイメージ">
+                    <h3 class="section-title room-name">和モダンツイン</h3>
+                    <p class="room-desc">畳の和室にベッドを備えた、和と洋のいいとこ取りのお部屋です。</p>
+
+                    <details class="room-detail">
+                        <summary>お部屋の詳細</summary>
+                        <p>広さ・定員・設備などの詳細をここに記入します。</p>
+                    </details>
+                </article>
+                <article class="room-card">
+                    <img src="img/room06.jpg" alt="マッサージチェア付ツインのイメージ">
+                    <h3 class="section-title room-name">マッサージチェア付ツイン</h3>
+                    <p class="room-desc">広縁にマッサージチェアを備えたツイン。リラックスと安眠にこだわったお部屋です。</p>
+                    <p class="room-note">※ この部屋は2部屋限定です。</p>
+                    <details class="room-detail">
+                        <summary>お部屋の詳細</summary>
+                        <p>広さ・定員・設備などの詳細をここに記入します。</p>
+                    </details>
+                </article>
+            </div>
+        </section>
+
+        <p class="to-top"><a href="#top">ページの先頭へ</a></p>
     </main>
-
     <footer class="onsen-footer">
         <div class="footer-inner">
             <div class="footer-info">
