@@ -29,12 +29,17 @@ section {
     margin-bottom: 40px;
 }
 
+.spot {
+    text-align: center;
+}
+
 .kanko {
     width: 30%;
     display: inline-block;
     margin: 0 0.5% 20px;
-    border: 1px solid #aaa;
     box-sizing: border-box;
+    align-items: center;
+    text-align: left;
 }
 
 /* 駐車場の画像 */
@@ -42,4 +47,9 @@ section {
     width: 100%;
     height: 240px;
     display: block;
+}
+
+.kanko-list {
+    display: block;
+    width: 100%;
 }
